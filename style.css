@@ -25,9 +25,9 @@
     margin-top: 0;
 };
 
-.card-img {
+.card.card-img {
     max-width: 10px;
-	height: auto;
-	display: block;
-	margin-top: 10px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
 };
