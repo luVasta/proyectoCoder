@@ -25,7 +25,7 @@ formularioEdad.addEventListener("submit", (event) => {
                 <p>Variedad: ${producto.varietal}</p>
                 <p>Descripción: ${producto.descripcion}</p>
                 <p>Precio: $${producto.precio}</p>
-                <img src="${producto.imagen}" alt="Imagen del producto" width="150" height="200">
+                <img class = "card-img" src="${producto.imagen}" alt="Imagen del producto">
             `;
 
             productosContainer.append(card);
@@ -41,7 +41,6 @@ formularioEdad.addEventListener("submit", (event) => {
         document.body.innerHTML = ""; 
     }
 });
-
 
 
 
